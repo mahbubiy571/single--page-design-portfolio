@@ -1,0 +1,66 @@
+.btn {
+    width: 232px;
+    height: 56px;
+    border-radius: 2.8rem;
+    padding: 1.4rem 4.4rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: $line-height-body;
+    transition: 0.4s;
+}
+
+
+.btn-black {
+    background-color: $color-black;
+    color: $color-cream;
+
+    &:hover {
+        background-color:$color-purple-light;
+        border:$color-purple-dark;
+    }
+}
+
+.btn-red {
+    background-color: $color-coral;
+    color: $color-cream;
+    border: $color-coral;
+
+    &:hover {
+        background-color: $color-orange;
+        border: $color-orange;
+    }
+}
+
+.btn-arrow1 {
+    width: 64px;
+    height: 64px;
+    padding: 24px 25px 24px 25px;
+    border-radius: 50%;
+}
+
+.btn-arrow-black1 {
+    background-color: $color-black;
+    color: $color-cream;
+
+    &:hover {
+        background-color: $color-purple-dark;
+        border: $color-purple-dark;
+    }
+}
+
+.btn-arrow2 {
+    width: 64px;
+    height: 64px;
+    padding: 24px 25px 24px 25px;
+    border-radius: 50%;
+}
+
+.btn-arrow-black2 {
+    background-color: $color-black;
+    color: $color-cream;
+
+    &:hover {
+        background-color: $color-purple-dark;
+        border: $color-purple-dark;
+    }
+}
